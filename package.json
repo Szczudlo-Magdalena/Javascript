@@ -1,0 +1,25 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint js/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Szczudlo-Magdalena/SzczudloMagdalenaLab3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Szczudlo-Magdalena/SzczudloMagdalenaLab3/issues"
+  },
+  "homepage": "https://github.com/Szczudlo-Magdalena/SzczudloMagdalenaLab3#readme",
+  "dependencies": {
+    "draggable": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  },
+  "description": ""
+}
