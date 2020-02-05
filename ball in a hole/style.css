@@ -64,5 +64,21 @@
      border-color: rgb(124, 163, 115);
      border-style: double;
      text-align: center;
- }
+}
+
+#gameIsWinDiv{
+    position: absolute;
+    top:20%;
+    left:30%;
+    width: 30%;
+    height: 9%;
+    border: double;
+    border-color: rgb(94, 187, 94);
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    text-align-last: center;
+    font-size: 50px;
+    padding: 6%;
+    color:rgb(94, 187, 94);
+}
  

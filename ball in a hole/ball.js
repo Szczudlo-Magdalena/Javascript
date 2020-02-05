@@ -11,8 +11,11 @@ class Ball {
         this.ball = document.getElementById("ball");
         this.hole1 = document.getElementById("hole1");
         this.hole2 = document.getElementById("hole2");
-        this.hole3 = document.getElementById("hole3");      
-
+        this.hole3 = document.getElementById("hole3"); 
+        
+        this.BallMovement();
+    }
+    BallMovement(){
         this.ball.style.top = 90 + "px";
 
         window.addEventListener("deviceorientation", function(event) {
@@ -57,12 +60,10 @@ class Ball {
               this.HoleObj.hole3.visited++;
               this.console.log(HoleObj)
               }
-              // else if(this.HoleObj.hole1.visited == true && this.HoleObj.hole3.visited==true && tthis.HoleObj.hole3.visited== true){
-              //   this.console.log('viisted 3')
-              //   this.console.log(HoleObj.visited)
-              // }
             }
-
+            if(this.HoleObj.hole3.visited == 1){
+                let win = new Winner();
+            }
             });
             function GetPropertyValue(obj1, dataToRetrieve) {
                 return dataToRetrieve
@@ -70,16 +71,17 @@ class Ball {
                   .reduce(function(o, k) {
                     return o && o[k]; 
                   }, obj1) 
-              }
+            }
 
             function getOffset(el) {
                 const rect = el.getBoundingClientRect();
                 return {
                   left: rect.left + window.scrollX,
                   top: rect.top + window.scrollY
-                };
-              }
-            
+            };
+        }   
     }
-
 }
+
+   
+

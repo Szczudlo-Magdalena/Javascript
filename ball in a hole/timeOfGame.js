@@ -8,9 +8,7 @@ class TimeOfGame{
         document.body.appendChild(this.countTimeDiv); 
         this.countTimeDiv.id='countTimeDiv';
         this.countTimeDiv.textContent='Czas gry'
-        //this.TimeOfGames();
-       // setTimeout(this.TimeOfGames, 100);
-       //this.timer()
+        
     }
     add() {
         let seconds=0;
