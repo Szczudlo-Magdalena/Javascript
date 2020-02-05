@@ -1,84 +1,100 @@
 #container{
     padding: 0;
     margin: 0;
-     width:100%;
-     height:800px;
-     background-image:url("LEAF/leaves/leaves.png");
- }
- 
- .countTime{
-     width: 20%;
-     height: 10%;
-     position: absolute;
-     left: 10%;
-     bottom: 5%;
-     border-color: rgb(124, 163, 115);
-     border-style: double;
-     text-align: center;
- }
- 
- .ball {
-     display: flex;
-     position: relative;
-     border-radius: 50%;
-     background-color: rgb(136, 255, 0);
-     width: 20px;
-     height: 20px;
-     margin: auto;
- }
- 
- .ball-container {
-     position: relative;
-     display: block;
-     border: solid 1px rgb(120, 153, 131);
-     border-style: double;
-     height: 20em;
-     max-width: 25em;
-     margin: auto;
- }
- 
- ul {
-     display: flex;
-     justify-content: space-between;
-     height: 3em;
-     margin: 0 auto;
-     padding: 1em 0 0 0;
- }
- 
- .hole {
-     display: inline-flex;
-     position: relative;
-     border-radius: 50%;
-     background-color: rgb(158, 199, 146);
-     border: 2px solid rgb(82, 141, 71);
-     width: 22px;
-     height: 22px;
- }
- 
- #countTimeDiv{
-     width: 20%;
-     height: 10%;
-     position: absolute;
-     left: 10%;
-     bottom: 5%;
-     border-color: rgb(124, 163, 115);
-     border-style: double;
-     text-align: center;
+    width:100%;
+    height:800px;
+    background-image:url("LEAF/leaves/leaves.png");
 }
-
+ 
+.ball {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(136, 255, 0);
+    width: 22px;
+    height: 22px;
+    margin: auto;
+    background-color:rgb(158, 199, 146);
+}
+ 
+.ball-container {
+    position: relative;
+    display: block;
+    top:5%;
+    border: solid 4px rgb(158, 199, 146);
+    border-style: double;
+    height: 20em;
+    max-width: 25em;
+    margin: auto;
+}
+ 
+ul {
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+    margin: 0 auto;
+    padding: 1em 0 0 0;
+}
+ 
+.hole {
+    display: inline-flex;
+    position: relative;
+    border-radius: 50%;
+    background-color: rgb(158, 199, 146);
+    border: 2px solid rgb(82, 141, 71);
+    width: 22px;
+    height: 22px;
+}
+  
 #gameIsWinDiv{
     position: absolute;
-    top:20%;
-    left:30%;
+    top:48%;
+    left:29%;
     width: 30%;
     height: 9%;
-    border: double;
-    border-color: rgb(94, 187, 94);
-    background-color: rgb(253, 253, 253);
+    border: 4px solid rgb(158, 199, 146);
     text-align: center;
     text-align-last: center;
     font-size: 50px;
     padding: 6%;
+    color:rgb(130, 165, 120);
+}
+
+#holeNumber1{
+    position: absolute;
+    top:20%;
+    left:2%;
+    font-size: 22px;
+    color: rgb(94, 187, 94);
+}
+
+#holeNumber2{
+    position: absolute;
+    top:20%;
+    left:49%;
+    font-size: 22px;
+    color: rgb(94, 187, 94);
+}
+
+#holeNumber3{
+    position: absolute;
+    top:20%;
+    right: 2%;
+    font-size: 22px;
     color:rgb(94, 187, 94);
+}
+
+#gameInstruction{
+    position: absolute;
+    left:20%;
+    bottom:3%;
+    width: 60%;
+    height: 6%;
+    text-align-last: center;
+    font-size: 25px;
+    color:rgb(130, 165, 120);
+    border: 4px solid rgb(158, 199, 146);
+    padding-top: 20px;
+
 }
  
