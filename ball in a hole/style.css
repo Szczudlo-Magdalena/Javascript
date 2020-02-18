@@ -1,4 +1,4 @@
-#container{
+#container {
     padding: 0;
     margin: 0;
     width:100%;
@@ -46,7 +46,7 @@ ul {
     height: 22px;
 }
   
-#gameIsWinDiv{
+#gameIsWinDiv {
     position: absolute;
     top:48%;
     left:29%;
@@ -60,7 +60,7 @@ ul {
     color:rgb(130, 165, 120);
 }
 
-#holeNumber1{
+#holeNumber1 {
     position: absolute;
     top:20%;
     left:2%;
@@ -68,7 +68,7 @@ ul {
     color: rgb(94, 187, 94);
 }
 
-#holeNumber2{
+#holeNumber2 {
     position: absolute;
     top:20%;
     left:49%;
@@ -76,7 +76,7 @@ ul {
     color: rgb(94, 187, 94);
 }
 
-#holeNumber3{
+#holeNumber3 {
     position: absolute;
     top:20%;
     right: 2%;
@@ -84,7 +84,7 @@ ul {
     color:rgb(94, 187, 94);
 }
 
-#gameInstruction{
+#gameInstruction {
     position: absolute;
     left:20%;
     bottom:3%;
@@ -97,4 +97,59 @@ ul {
     padding-top: 20px;
 
 }
- 
+
+#timeOfGameDiv {
+    position: absolute;
+    left:10%;
+    top:5%;
+    height: 10%;
+    width: 16%;
+    text-align-last: center;
+    font-size: 25px;
+    color:rgb(130, 165, 120);
+    border: 4px solid rgb(158, 199, 146);
+    padding-top: 20px;
+}
+
+h1 {
+    position: absolute;
+    left:10%;
+    top:5%;
+}
+
+#start {
+    position: absolute;
+    left:12%;
+    top:20%;
+    border: 2px solid rgb(158, 199, 146);
+    border-radius: 10%;
+}
+
+#start:hover {
+    background-color:rgb(158, 199, 146);
+}
+
+#stop{
+    position: absolute;
+    left:42%;
+    top:20%;
+    border: 2px solid rgb(158, 199, 146);
+    border-radius: 10%;
+}
+
+#stop:hover{
+    background-color:rgb(158, 199, 146);
+}
+
+#clear{
+    position: absolute;
+    left:71%;
+    top:20%;
+    border: 2px solid rgb(158, 199, 146);
+    border-radius: 10%;
+}
+
+#clear:hover{
+    background-color:rgb(158, 199, 146);
+
+}
