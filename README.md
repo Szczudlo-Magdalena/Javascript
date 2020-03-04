@@ -1,2 +1,1 @@
 # Javascript
-Simple JavaScript project.
